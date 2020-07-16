@@ -1,0 +1,16 @@
+{
+  "generator-easy-ui5": {
+    "projectname": "hrpwebpanel",
+    "namespace": "de.mabenan.",
+    "platform": "Static webserver",
+    "viewtype": "XML",
+    "viewname": "MainView",
+    "ui5libs": "Content delivery network (OpenUI5)",
+    "newdir": false,
+    "namespaceURI": "de/mabenan/",
+    "uimodules": [
+      "uimodule"
+    ],
+    "setupCompleted": true
+  }
+}
