@@ -1,11 +1,11 @@
 sap.ui.define([
   "sap/ui/core/UIComponent",
   "sap/ui/Device",
-  "de/mabenan//hrpwebpanel/model/models"
+  "de/mabenan/hrpwebpanel/model/models"
 ], function(UIComponent, Device, models) {
   "use strict";
 
-  return UIComponent.extend("de.mabenan..hrpwebpanel.Component", {
+  return UIComponent.extend("de.mabenan.hrpwebpanel.Component", {
 
     metadata: {
       manifest: "json"

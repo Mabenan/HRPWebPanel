@@ -3,12 +3,12 @@ sap.ui.define([
 ], function(Opa5) {
   "use strict";
 
-  return Opa5.extend("de.mabenan..hrpwebpanel.test.integration.arrangements.Startup", {
+  return Opa5.extend("de.mabenan.hrpwebpanel.test.integration.arrangements.Startup", {
 
     iStartMyApp: function () {
       this.iStartMyUIComponent({
         componentConfig: {
-          name: "de.mabenan..hrpwebpanel",
+          name: "de.mabenan.hrpwebpanel",
           async: true,
           manifest: true
         }

@@ -1,7 +1,7 @@
 sap.ui.define([
   "sap/ui/test/Opa5",
-  "de/mabenan//hrpwebpanel/test/integration/arrangements/Startup",
-  "de/mabenan//hrpwebpanel/test/integration/BasicJourney"
+  "de/mabenan/hrpwebpanel/test/integration/arrangements/Startup",
+  "de/mabenan/hrpwebpanel/test/integration/BasicJourney"
 ], function(Opa5, Startup) {
   "use strict";
 

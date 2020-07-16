@@ -1,6 +1,6 @@
 sap.ui.define([
   "sap/ui/test/opaQunit",
-  "de/mabenan//hrpwebpanel/test/integration/pages/MainView"
+  "de/mabenan/hrpwebpanel/test/integration/pages/MainView"
 ], function (opaTest) {
   "use strict";
 

@@ -1,7 +1,7 @@
 {
   "_version": "1.12.0",
   "sap.app": {
-    "id": "de.mabenan..hrpwebpanel",
+    "id": "de.mabenan.hrpwebpanel",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -28,7 +28,7 @@
   },
   "sap.ui5": {
     "rootView": {
-      "viewName": "de.mabenan..hrpwebpanel.view.MainView",
+      "viewName": "de.mabenan.hrpwebpanel.view.MainView",
       "type": "XML",
       "async": true,
       "id": "idAppControl"
@@ -49,7 +49,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "de.mabenan..hrpwebpanel.i18n.i18n"
+          "bundleName": "de.mabenan.hrpwebpanel.i18n.i18n"
         }
       }
     },
@@ -64,7 +64,7 @@
       "config": {
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
-        "viewPath": "de.mabenan..hrpwebpanel.view",
+        "viewPath": "de.mabenan.hrpwebpanel.view",
         "controlId": "idAppControl",
         "controlAggregation": "pages",
         "async": true

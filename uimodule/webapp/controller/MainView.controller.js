@@ -3,5 +3,5 @@ sap.ui.define([
 ], function(Controller) {
   "use strict";
 
-  return Controller.extend("de.mabenan..hrpwebpanel.controller.MainView", {});
+  return Controller.extend("de.mabenan.hrpwebpanel.controller.MainView", {});
 });

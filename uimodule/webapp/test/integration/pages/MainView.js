@@ -4,7 +4,7 @@ sap.ui.require([
 ], function (Opa5, AggregationLengthEquals) {
   "use strict";
 
-  var sViewName = "de.mabenan..hrpwebpanel.view.MainView";
+  var sViewName = "de.mabenan.hrpwebpanel.view.MainView";
   var sAppId = "idAppControl";
 
   Opa5.createPageObjects({
