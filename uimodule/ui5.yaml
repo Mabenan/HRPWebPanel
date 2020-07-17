@@ -21,3 +21,13 @@ server:
       configuration:
         port: 35729
         path: uimodule/webapp
+    - name: proxy
+      beforeMiddleware: serveResources
+---
+specVersion: '1.0'
+kind: extension
+type: server-middleware
+metadata:
+  name: proxy
+middleware:
+  path: lib/middleware/proxy.js

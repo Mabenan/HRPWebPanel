@@ -8,7 +8,13 @@
       "version": "1.0.0"
     },
     "title": "{{appTitle}}",
-    "description": "{{appDescription}}"
+    "description": "{{appDescription}}",
+    "dataSources": {
+			"default": {
+				"uri": "/qx",
+				"type": "QxOrm"
+			}
+		}
   },
   "sap.ui": {
     "technology": "UI5",
@@ -51,7 +57,17 @@
         "settings": {
           "bundleName": "de.mabenan.hrpwebpanel.i18n.i18n"
         }
-      }
+      },
+			"default": {
+        "type": "de.mabenan.hrpwebpanel.model.QxOrmModel",
+				"dataSource": "default",
+				"settings": {
+					"autoExpandSelect": true,
+					"operationMode": "Server",
+					"groupId": "$direct",
+					"synchronizationMode": "None"
+				}
+			}
     },
     "resources": {
       "css": [
